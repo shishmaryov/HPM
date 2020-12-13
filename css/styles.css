@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Futura PT Demi; /* Имя шрифта */
+    src: url(/fonts/FuturaPT-Demi.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Futura PT Medium; /* Имя шрифта */
+    src: url(/fonts/FuturaPT-Medium.ttf); /* Путь к файлу со шрифтом */
+}
+@font-face {
+    font-family: Futura PT Book; /* Имя шрифта */
+    src: url(/fonts/FuturaPT-Book.ttf); /* Путь к файлу со шрифтом */
+}
+body {
+    max-width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 50px;
+    font-family: "Futura PT",serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align-last: left;
+    color: black;
+}
+p {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+span {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+h1 {
+    font-size: 24px;
+    width: 600;
+}
+h2 {
+    font-size: 24px;
+    width: 600;
+}
+h3 {
+    font-size: 24px;
+    width: 600;
+}
+h4 {
+    font-size: 24px;
+    width: 600;
+}
+p {
+    font-weight: 400;
+}
+span
+/* что - то важное в тексте */ 
+{
+font-weight: 600;
+}
+.quote 
+/* цитата */
+{
+font-style: italic;
+}
