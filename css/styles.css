@@ -21,7 +21,30 @@ body {
     line-height: 27px;
     text-align-last: left;
     color: black;
+    align-items: center;
 }
+
+header {
+  background-color: black;
+  border-radius: 5px;
+}
+
+.header__list {
+  padding-left: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+header a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__item {
+  padding: 15px;
+  list-style-type: none;
+}
+
 p {
     margin-top: 10px;
     margin-bottom: 10px;
@@ -58,4 +81,30 @@ font-weight: 600;
 /* цитата */
 {
 font-style: italic;
+}
+
+.flex {
+  display: flex;
+  justify-content:space-between;
+}
+
+.quote {
+  max-width: 500px;
+}
+
+@media(max-width:950px) {
+  header {
+    background-color: #fff;
+  }
+  .header__list {
+    flex-wrap: wrap;
+  }
+  .header a {
+    color: black;
+    text-decoration: underline;
+  }
+  .flex {
+    display: block;
+    padding: 50px;
+  }
 }
