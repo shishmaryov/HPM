@@ -107,9 +107,9 @@ font-style: italic;
   .flex {
     display: block;
     padding: 50px;
+    paddng: 50px;
   }
 }
-
 .gif {
   margin-left: calc(50% - 300px);
 }
@@ -125,6 +125,3 @@ font-style: italic;
 .red-margin-img {
   margin-left: calc(50% - 300px);
 }
-
-
-
