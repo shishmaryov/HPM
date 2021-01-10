@@ -92,8 +92,36 @@ font-style: italic;
 .quote {
   max-width: 500px;
 }
+.gif {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.wises-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.manutius-img {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.red-margin-img {
+  margin-left: auto;
+  margin-right: auto;
+}
 
 @media(max-width:950px) {
+  body {
+    padding-left: 10px;
+    margin-left: 0px;
+  }
+  .wises-img, .manutius-img, .red-margin-img, .gif {
+    height: 150px;
+    width: auto;
+    margin-left: 0px;
+  }
   header {
     background-color: #fff;
   }
@@ -106,22 +134,9 @@ font-style: italic;
   }
   .flex {
     display: block;
-    padding: 50px;
-    paddng: 50px;
   }
-}
-.gif {
-  margin-left: calc(50% - 300px);
-}
-
-.wises-img {
-  margin-left: calc(50% - 300px);
-}
-
-.manutius-img {
-  margin-left: calc(50% - 300px);
-}
-
-.red-margin-img {
-  margin-left: calc(50% - 300px);
+  .flex img {
+    width: 150px;
+    height: auto;
+  }
 }
