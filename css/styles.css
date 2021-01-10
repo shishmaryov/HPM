@@ -18,14 +18,15 @@ body {
     font-family: "Futura PT",serif;
     font-size: 18px;
     font-weight: 400;
-    line-height: 27px;
+    line-height: 1.5;
     text-align-last: left;
-    color: black;
+    color: #303b44;
     align-items: center;
 }
 
+
 header {
-  background-color: black;
+  background-color: #303b44;
   border-radius: 5px;
 }
 
@@ -71,11 +72,11 @@ h4 {
 }
 p {
     font-weight: 400;
-}
-span
-/* что - то важное в тексте */ 
-{
-font-weight: 600;
+} 
+span {
+  font-weight: 600;
+  padding: 5px;
+  background-color: #e0f1ff;
 }
 .quote 
 /* цитата */
@@ -97,14 +98,33 @@ font-style: italic;
     background-color: #fff;
   }
   .header__list {
+    border: 3px solid #303b44;
     flex-wrap: wrap;
   }
   .header a {
-    color: black;
-    text-decoration: underline;
+    color: #303b44;
   }
   .flex {
     display: block;
     padding: 50px;
   }
 }
+
+.gif {
+  margin-left: calc(50% - 300px);
+}
+
+.wises-img {
+  margin-left: calc(50% - 300px);
+}
+
+.manutius-img {
+  margin-left: calc(50% - 300px);
+}
+
+.red-margin-img {
+  margin-left: calc(50% - 300px);
+}
+
+
+
