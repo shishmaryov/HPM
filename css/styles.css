@@ -92,28 +92,17 @@ font-style: italic;
 .quote {
   max-width: 500px;
 }
-.gif {
+
+.wises-img, .manutius-img, .red-margin-img, .gif {
+  display: block;
   margin-left: auto;
   margin-right: auto;
 }
 
-.wises-img {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.manutius-img {
-  margin-left: auto;
-  margin-right: auto;
-}
-
-.red-margin-img {
-  margin-left: auto;
-  margin-right: auto;
-}
 
 @media(max-width:950px) {
   body {
+    font-family: "Futura PT", sans-serif;
     padding-left: 10px;
     margin-left: 0px;
   }
